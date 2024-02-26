@@ -1,0 +1,41 @@
+/* App.css */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.welcome-container {
+  width: 80vw;
+  height: 80vh;
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  padding-top: 100px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.start-button {
+  display: inline-block;
+  padding: 20px 20px;
+  margin: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #45a049;
+}
+
+/* Add more styling as needed */
